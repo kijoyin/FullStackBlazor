@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullStack.Server", "FullSta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullStack.App", "FullStack.App\FullStack.App.csproj", "{0618A0EC-8E37-4DD3-A678-512E01144D83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullStack.Api", "FullStack.Api\FullStack.Api.csproj", "{01549417-4BE7-4E4B-A24C-84DA212A0EC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullStack.Client", "FullStack.Client\FullStack.Client.csproj", "{7F6B94CC-E9FD-4E24-AA72-782F4C035980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0618A0EC-8E37-4DD3-A678-512E01144D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0618A0EC-8E37-4DD3-A678-512E01144D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0618A0EC-8E37-4DD3-A678-512E01144D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01549417-4BE7-4E4B-A24C-84DA212A0EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01549417-4BE7-4E4B-A24C-84DA212A0EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01549417-4BE7-4E4B-A24C-84DA212A0EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01549417-4BE7-4E4B-A24C-84DA212A0EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6B94CC-E9FD-4E24-AA72-782F4C035980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6B94CC-E9FD-4E24-AA72-782F4C035980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6B94CC-E9FD-4E24-AA72-782F4C035980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6B94CC-E9FD-4E24-AA72-782F4C035980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

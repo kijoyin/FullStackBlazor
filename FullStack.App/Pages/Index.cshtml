@@ -1,7 +1,28 @@
 ﻿@page "/"
+@using FullStack.Client;
+@inject FullStack.Client.ValuesClient ValuesClient;
 
-<h1>Hello, world!</h1>
+<h1>Values</h1>
+@*Will be null while it is loading*@
+@if (values != null)
+{
+    <ul>
+        @foreach (string value in values)
+        {
+            <li>@value</li>
+        }
+    </ul>
+}
+else
+{
+    <text> Finding todos </text>
+}
 
-Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@functions{
+    IEnumerable<string> values;
+    protected override async Task OnInitAsync()
+    {
+        values = await ValuesClient.GetAllAsync();
+    }
+}
